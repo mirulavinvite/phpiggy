@@ -1,0 +1,17 @@
+{
+    "name": "yomih/phpiggy",
+    "description": "A php aplication for traking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mihai"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
